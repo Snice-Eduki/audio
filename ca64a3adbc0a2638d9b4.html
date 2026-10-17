@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; media-src https://mp3-de.snice-unterricht.eu https://mp3-ml.snice-unterricht.eu https://snice-klexikon-hoertexte.pages.dev https://snice-hoertexte-ml.pages.dev https://cdn.jsdelivr.net https://fastly.jsdelivr.net https://raw.githubusercontent.com https://snice-eduki.github.io; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:">
+<meta name="snice-mp3" content="https://cdn.jsdelivr.net/gh/Snice-Eduki/hoertexte-ml@main/mp3/Karl%20May_EN.mp3">
+<meta name="snice-sha256" content="940b831a5f6deef91a76ebe7cfbacc4d3bca315bc9f06df4c910400b3c89f2a1">
+<title>Karl May – Listening text</title>
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--ink:#23262b;--mut:#5d6470;--acc:#6a3d9a;--line:#e3ded3}
+@media (prefers-color-scheme:dark){:root{--bg:#191a1d;--card:#24262b;--ink:#eeeae2;--mut:#b5b0a6;--acc:#c6a5ec;--line:#34363c}}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--bg);color:var(--ink);
+font:18px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:16px}
+main{width:100%;max-width:560px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px 22px;text-align:center}
+.k{margin:0 0 4px;color:var(--acc);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:14px}
+h1{margin:0 0 18px;font-size:clamp(24px,6vw,32px);line-height:1.2;overflow-wrap:anywhere}
+audio{width:100%;margin:6px 0 12px}
+p{margin:8px 0;color:var(--mut)}
+#e{color:var(--ink);background:rgba(200,60,60,.12);border-radius:10px;padding:10px}
+a{color:var(--acc)}
+</style>
+</head>
+<body>
+<main>
+  <p class="k">Listening text</p>
+  <h1>Karl May</h1>
+  <audio id="a" controls preload="metadata" data-mp3="https://cdn.jsdelivr.net/gh/Snice-Eduki/hoertexte-ml@main/mp3/Karl%20May_EN.mp3" data-sha256="940b831a5f6deef91a76ebe7cfbacc4d3bca315bc9f06df4c910400b3c89f2a1">
+      <source src="https://mp3-ml.snice-unterricht.eu/mp3/Karl%20May_EN.mp3" type="audio/mpeg">
+      <source src="https://snice-hoertexte-ml.pages.dev/mp3/Karl%20May_EN.mp3" type="audio/mpeg">
+      <source src="https://raw.githubusercontent.com/Snice-Eduki/hoertexte-ml/main/mp3/Karl%20May_EN.mp3" type="audio/mpeg">
+      <source src="https://cdn.jsdelivr.net/gh/Snice-Eduki/hoertexte-ml@main/mp3/Karl%20May_EN.mp3" type="audio/mpeg">
+      <source src="https://fastly.jsdelivr.net/gh/Snice-Eduki/hoertexte-ml@main/mp3/Karl%20May_EN.mp3" type="audio/mpeg">
+      Your browser cannot play this recording.
+  </audio>
+  <p>Tap ▶ and listen carefully.</p>
+  <p id="e" hidden>The recording is not loading right now. Please reload the page or try again later.<br>Open the recording directly: <a href="https://mp3-ml.snice-unterricht.eu/mp3/Karl%20May_EN.mp3" rel="noopener">1</a> · <a href="https://snice-hoertexte-ml.pages.dev/mp3/Karl%20May_EN.mp3" rel="noopener">2</a> · <a href="https://raw.githubusercontent.com/Snice-Eduki/hoertexte-ml/main/mp3/Karl%20May_EN.mp3" rel="noopener">3</a> · <a href="https://cdn.jsdelivr.net/gh/Snice-Eduki/hoertexte-ml@main/mp3/Karl%20May_EN.mp3" rel="noopener">4</a> · <a href="https://fastly.jsdelivr.net/gh/Snice-Eduki/hoertexte-ml@main/mp3/Karl%20May_EN.mp3" rel="noopener">5</a></p>
+</main>
+<script>
+(function(){var a=document.getElementById("a"),s=a.getElementsByTagName("source"),b=document.getElementById("e");
+if(s.length)s[s.length-1].addEventListener("error",function(){b.hidden=false;});
+a.addEventListener("error",function(){b.hidden=false;});})();
+</script>
+</body>
+</html>
